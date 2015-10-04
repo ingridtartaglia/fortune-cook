@@ -1,0 +1,42 @@
+body {
+	background-color: Ivory;
+	margin-top: 5em;
+	text-align: center;
+}
+
+.fc-img {
+	margin: 5em 5em;
+	max-height: 30%;
+	max-width: 30%;
+}
+@media screen and (max-width: 768px) {
+    .fc-img {
+        max-height: 50%;
+		max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+	div:last-of-type {
+		margin-left: 8em;
+		margin-right: 8em;
+	}
+}
+@media screen and (max-width: 1023px) {
+	div:last-of-type {
+		margin-left: 5em;
+		margin-right: 5em;
+	}
+}
+@media screen and (max-width: 768px) {
+	div:last-of-type {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+}
+
+.fc-text-div {
+	background-color: white;
+	border: 1px solid gray;
+	box-shadow: 10px 10px 10px rgba(191,191,191,1);
+}
