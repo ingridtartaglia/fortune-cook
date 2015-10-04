@@ -40,19 +40,19 @@ h1 {
 }
 
 @media screen and (min-width: 1024px) {
-	div:last-of-type {
+	#fc-quote-placeholder {
 		margin-left: 8em;
 		margin-right: 8em;
 	}
 }
 @media screen and (max-width: 1023px) {
-	div:last-of-type {
+	#fc-quote-placeholder {
 		margin-left: 5em;
 		margin-right: 5em;
 	}
 }
 @media screen and (max-width: 768px) {
-	div:last-of-type {
+	#fc-quote-placeholder {
 		margin-left: 1em;
 		margin-right: 1em;
 	}

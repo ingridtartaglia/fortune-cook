@@ -16,7 +16,7 @@ $(document).ready(function(){
 	
 	$(".fc-img").click(function(){
 		$(".fc-quote-div").remove();
-		$("div:last-of-type").append("<div class='fc-quote-div'><p class='fc-quote'>" + 
+		$("#fc-quote-placeholder").append("<div class='fc-quote-div'><p class='fc-quote'>" + 
 			fortuneQuotes[Math.floor(Math.random()*fortuneQuotes.length)] + "</p></div>");
 		$(".fc-quote-div").addClass('animated zoomIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
 			function(){
