@@ -4,6 +4,28 @@ body {
 	text-align: center;
 }
 
+@font-face {
+	font-family:"ChinaOne Normal";
+	src:url("fonts/ChinaOne.eot?")format("eot"),
+		url("fonts/ChinaOne.woff") format("woff"),
+		url("fonts/ChinaOne.ttf") format("truetype"),
+		url("fonts/ChinaOne.svg#ChinaOneNormal") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+h1 {
+	font-family: 'ChinaOne Normal';
+	font-size: 4em;
+	letter-spacing: 4px;
+}
+
+.fc-subtitle {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 200;
+}
+
 .fc-img {
 	margin: 5em 5em;
 	max-height: 30%;
@@ -11,6 +33,7 @@ body {
 }
 @media screen and (max-width: 768px) {
     .fc-img {
+		margin: 2em 5em;
         max-height: 50%;
 		max-width: 50%;
     }
@@ -35,8 +58,17 @@ body {
 	}
 }
 
-.fc-text-div {
+.fc-quote-div {
 	background-color: white;
-	border: 1px solid gray;
-	box-shadow: 10px 10px 10px rgba(191,191,191,1);
+	border: 1px solid lightgrey;
+	box-shadow: 10px 10px 10px lightgrey;
+}
+
+.fc-quote {
+	color: DimGray;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 500;
+	padding-left: 0.5em;
+	padding-right: 0.5em;	
 }
